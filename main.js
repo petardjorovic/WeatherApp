@@ -17,7 +17,7 @@ inputCity.addEventListener('keyup', getWeatherData);
 function getWeatherData(e){
     if(e.keyCode === 13){
         let xml = new XMLHttpRequest();
-        xml.open('GET', 'https://api.openweathermap.org/data/2.5/weather?q='+ inputCity.value +'&appid=31222bcfbe07c5f0d2488d3879d9b0e4&units=metric');
+        xml.open('GET', 'https://api.openweathermap.org/data/2.5/weather?q='+ inputCity.value +'&appid={API key}&units=metric');
 
         xml.onreadystatechange = function(){
             if(xml.readyState === 4 && xml.status === 200){
