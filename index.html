@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <div id="weather">
+            <div class="top">
+                <div class="top-left">
+                    <input type="text" id="input-city" placeholder="City">
+                    <p id="day">Day</p>
+                    <p id="date">Date</p>
+                    <p id="time">Time</p>
+                </div>
+                <div class="top-right">
+                    <p id="weather-status">Weather Status:</p>
+                    <img src="/01d@2x.png" alt="" id="image">
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="bottom-left">
+                    <p id="temp">16 &degC</p>
+                    <p id="max-temp">Max: 16 &degC</p>
+                    <p id="min-temp">Min: 16 &degC</p>
+                </div>
+                <div class="bottom-right">
+                    <div class="bottom-right-l">
+                        <p>Wind speed:</p>
+                        <p>Humidity:</p>
+                        <p>Pressure:</p>
+                        <p>Sunrise Time:</p>
+                        <p>Sunset Time:</p>
+                    </div>
+                    <div class="bottom-right-r">
+                        <p id="wind-speed">30 KmH</p>
+                        <p id="humidity">80%</p>
+                        <p id="pressure">1024</p>
+                        <p id="sunrise-time">00:00</p>
+                        <p id="sunset-time">00:00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

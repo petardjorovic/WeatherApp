@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #7d4444;
+    font-size: 16px;
+    line-height: 1.4;
+    font-family: "Roboto", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    margin-top: 0 auto;
+    padding: 0 15px;
+    width: 600px;
+}
+
+#weather {
+    margin: 30vh auto;
+    text-align: center;
+    color: #fff;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 45px 20px 40px 70px;
+    border-radius: 25px 25px 0 0;
+    background-color: #0d374d;
+}
+
+.top-left {
+    width: 50%;
+    padding-left: 0 15px;
+}
+
+#input-city {
+    background-color: transparent;
+    border: none;
+    font-size: 28px;
+    margin: 0;
+    margin-bottom: 25px;
+    max-width: 100%;
+    border-bottom: 1px solid #666;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.2s ease all;
+}
+
+#input-city:focus {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid mediumturquoise;
+}
+
+#day {
+    font-size: 28px;
+    margin: 0;
+} 
+
+#date {
+    font-size: 20px;
+    margin: 0;
+}
+
+#time {
+    font-size: 20px;
+    margin: 0;
+}
+
+#weather-status {
+    text-align: center;
+}
+
+#image {
+    width: 70%;
+    display: block;
+    margin: 20px auto;
+}
+
+#max-temp {
+    font-size: 15px;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+#min-temp {
+    font-size: 15px;
+    margin: 0;
+}
+
+.top-left p {
+    margin: 0;
+}
+
+.top-right {
+    width: 50%;
+    padding: 0 15px;
+}
+
+.top-left  {
+    margin: 0;
+}
+
+
+
+.bottom {
+    background-color: #0d374d;
+    margin-top: 2px;
+    display: flex;
+    text-align: left;
+    border-radius: 0 0 25px 25px;
+}
+
+.bottom-left {
+    width: 50%;
+    padding: 30px 60px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    flex-direction: column;
+}
+
+.bottom-left p {
+   margin: 0;
+}
+
+.bottom-right {
+    width: 50%;
+    padding: 30px 60px 10px;
+    border-left: 2px solid #33708f;
+    display: flex;
+    justify-content: space-around;
+    gap: 3px;
+    font-size: 15px;
+}
+
+.bottom-right p {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
